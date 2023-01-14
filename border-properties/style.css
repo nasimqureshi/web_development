@@ -1,0 +1,10 @@
+.main {
+width: 500;
+height: 200px;
+border: 10px solid blue;
+}
+.main1 {
+    width: 400px;
+    height: 200px;
+    border-bottom: 5px solid green;
+}
