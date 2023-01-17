@@ -4,24 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Opacity & Trasition</title>
+    <title>Display Properties</title>
     <style>
         .main {
             width: 500px;
             height: 500px;
-            background: rgba(200, 0, 0, 1) ;
-            opacity:0.5;
-            transition: 1s;
+            border: 5px black solid;
+            margin: auto;
+            display: flex;
         }
-       .main:hover {
-        background:rgba(0, 0, 256, 1)
-       }
+        .main div {
+            height: 50px;
+            border: 5px red solid;
+        }
     </style>
 </head>
 <body>
     <div class="main">
-
+       <div>1</div>
+       <div>2</div>
+       <div>3</div>
+       <div>4</div>
+       <div>5</div>
     </div>
-    
 </body>
 </html>
